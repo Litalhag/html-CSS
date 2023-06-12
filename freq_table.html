@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instruments Frequency Table</title>
+    <style>
+      html {
+        background: black;
+      }
+      .card {
+        border: 3px solid rgb(16, 31, 46);
+        background: rgb(5, 5, 5);
+        padding: 20px;
+        margin-bottom: 10px;
+      }
+      .back {
+        border: 1px solid pink;
+        background: lightpink;
+      }
+      .enhance {
+        color: rgb(51, 134, 217);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="tags" class="card">
+      <ul>
+        <li><a href="./home.html">Home</a></li>
+        <li><a href="./about.html">About Me</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./freq_table.html">Frequencies Table</a></li>
+        <li><a href="./join_me.html">Join me & sign in</a></li>
+      </ul>
+    </div>
+    <div id="header" class="card">
+      <h1 style="color: rgb(71, 109, 223)">This is a frequencies table:</h1>
+      <h2 style="color: rgb(71, 109, 223)">
+        Take a look, there's a few instruments I've added:
+      </h2>
+    </div>
+    <div id="photo" class="card">
+      <img
+        src="./images/Frequencies.png"
+        alt="Frequencies"
+        width="200"
+        height="200"
+      />
+    </div>
+    <div id="table" class="card">
+      <table border="3" class="enhance">
+        <thead>
+          <tr>
+            <th>instrument</th>
+            <th>Frequency to cut</th>
+            <th>Frequency To Boost</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Piano</td>
+            <td>300 Hz, 1-2 Khz</td>
+            <td>100 Hz, 5Khz</td>
+          </tr>
+          <tr>
+            <td>Electric Guitar</td>
+            <td>80Hz, 1-2 5Khz</td>
+            <td>125 Hz, 3Khz</td>
+          </tr>
+          <tr>
+            <td>Acoustic Guitar</td>
+            <td>200Hz, 2-3 Khz</td>
+            <td>125Hz, 5Khz and above</td>
+          </tr>
+          <tr>
+            <td>Electric Bass</td>
+            <td>125Hz, 1Khz</td>
+            <td>80Hz and below, 600Hz</td>
+          </tr>
+          <tr>
+            <td>Kick Drum</td>
+            <td>400Hz, 800Hz and below</td>
+            <td>860-125Hz, 2-5Khz</td>
+          </tr>
+          <tr>
+            <td>Snare Drum</td>
+            <td>------------------------------</td>
+            <td>80Hz, 150-200Hz</td>
+          </tr>
+          <tr>
+            <td>Cymbals</td>
+            <td>------------------------------</td>
+            <td>usually around 7-12Khz</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="copyrights" class="card">
+      <p class="enhance">&copy; Lital Hagayan 2023</p>
+    </div>
+  </body>
+</html>
